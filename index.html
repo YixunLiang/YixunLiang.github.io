@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-  <title>Fangjinhua Wang</title>
+  <title>Yixun Liang</title>
   
   <meta name="author" content="Fangjinhua Wang">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,22 +18,20 @@
           <tr style="padding:0px">
             <td style="padding:2.5%;width:63%;vertical-align:middle">
               <p style="text-align:center">
-                <name>Fangjinhua Wang (王方锦华)</name>
+                <name>Yixun Liang(梁逸勋)</name>
               </p>
-              <p>I am a Ph.D. student in Computer Science at <a href="https://ethz.ch/en.html">ETH Zurich</a>, supervised by Prof. <a href="http://cvg.ethz.ch/people/faculty/">Marc Pollefeys</a>. 
+              <p>I am a first year M.Phil. student in Artificial Intelligence at <a href="https://hkust-gz.edu.cn/">HKUST(GZ)</a>, supervised by Prof. <a href="https://www.yingcong.me/">Ying-Cong Chen</a>. 
               </p>
               <p>
-                Previously, I obtained a Master’s degree in Robotics at ETH zurich with distinction. I am the recipient of Chu Kochen Award (highest honor at Zhejiang University, 2017) and <a href="https://ethz.ch/content/dam/ethz/main/eth-zurich/education/auszeichnungen-preise/files/eth-medaille/medaille-master-arbeit-2021.pdf">ETH Medal</a> (ETH Zurich, 2021). 
+                Previously, I obtained a bachelor degree in Information Engneering at UESTC with Honor Research. I had an unforgettable research expriements with Prof.<a href="https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/11316?yxsh=05">Ping Zhang</a> in the area of Pan-Sharpening during my undergraduate years.
               </p>
               <p style="text-align:center">
-                <a href="mailto:fangjinhua.wang@inf.ethz.ch">Email</a> &nbsp/&nbsp
-                <a href="https://scholar.google.com/citations?user=ysTmrEsAAAAJ">Google Scholar</a> &nbsp/&nbsp
-                <a href="https://github.com/FangjinhuaWang">Github</a> &nbsp/&nbsp
-                <a href="https://www.linkedin.com/in/fangjinhua-wang-4ba2aa150/">Linkedin</a>
+                <a href="mailto:lyxun2000@163.com">Email</a> &nbsp/&nbsp
+                <a href="https://github.com/YixunLiang">Github</a>
               </p>
             </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/FangjinhuaWang.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/FangjinhuaWang_circle.jpg" class="hoverZoomLink"></a>
+            <td style="padding:2.5%;width:30%;max-width:30%">
+              <a href="images/YixunLiang.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/YixunLiang.jpg" class="hoverZoomLink"></a>
             </td>
           </tr>
         </tbody></table>
@@ -42,160 +40,121 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                My current research interests mainly lie in the field of 3D vision, dense matching, reconstruction and deep learning. 
+                My current research interests mainly focous on the field of 3D vision, 3D understanding, reconstruction and deep learning. 
               </p>
             </td>
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 				
-		      <tr onmouseout="volrecon_stop()" onmouseover="volrecon_start()">
+		      <tr onmouseout="retr_stop()" onmouseover="retr_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='volrecon_image'>
-                  <img src='images/volrecon_after.jpg' width="160"></div>
-                <img src='images/volrecon_before.jpg' width="160">
+                <div class="two" id='retr_image'>
+                  <img src='images/retr_after.png' width="160"></div>
+                <img src='images/retr_before.jpg' width="160">
               </div>
               <script type="text/javascript">
-                function volrecon_start() {
-                  document.getElementById('volrecon_image').style.opacity = "1";
+                function retr_start() {
+                  document.getElementById('retr_image').style.opacity = "1";
                 }
 
-                function volrecon_stop() {
-                  document.getElementById('volrecon_image').style.opacity = "0";
+                function retr_stop() {
+                  document.getElementById('retr_image').style.opacity = "0";
                 }
-                volrecon_stop()
+                retr_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2212.08067">
-                <papertitle>VolRecon: Volume Rendering of Signed Ray Distance Functions for Generalizable Multi-View Reconstruction</papertitle>
+                <papertitle>Rethinking Rendering in Generalizable Neural Surface Reconstruction: A Learning-based Solution</papertitle>
               </a>
               <br>
-              Yufan Ren*,
-              <strong>Fangjinhua Wang*</strong>,
-              Tong Zhang,
-              Marc Pollefeys,
-              Sabine Süsstrunk
+              <strong>Yixun Liang*</strong>,
+              Hao He*,
+              Ying-Cong Chen
               (* denotes equal contribution)
               <br>
-              <em>CVPR</em>, 2023
+              <em>Arxiv</em>, 2023
               <br>
               <a href="https://arxiv.org/abs/2212.08067">Paper</a> /
-              <a href="https://fangjinhuawang.github.io/VolRecon/">Project Page</a> /
-              <a href="https://github.com/IVRL/VolRecon">Code</a>
+              <a href="https://YixunLiang.github.io/ReTR/">Project Page</a> /
+              <a href="https://github.com/YixunLiang/ReTR">Code</a>
               <p></p>
             </td>
           </tr>   
 
-          <tr onmouseout="itermvs_stop()" onmouseover="itermvs_start()">
+          <tr onmouseout="mantra_stop()" onmouseover="mantra_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='itermvs_image'>
-                  <img src='images/itermvs_after.jpg' width="160"></div>
-                <img src='images/itermvs_before.jpg' width="160">
+                <div class="two" id='mantra_image'>
+                  <img src='images/mantranet_after.png' width="160"></div>
+                <img src='images/mantranet_before.jpg' width="160">
               </div>
               <script type="text/javascript">
-                function itermvs_start() {
-                  document.getElementById('itermvs_image').style.opacity = "1";
+                function mantra_start() {
+                  document.getElementById('mantra_image').style.opacity = "1";
                 }
 
-                function itermvs_stop() {
-                  document.getElementById('itermvs_image').style.opacity = "0";
+                function mantra_stop() {
+                  document.getElementById('mantra_image').style.opacity = "0";
                 }
-                itermvs_stop()
+                mantra_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_IterMVS_Iterative_Probability_Estimation_for_Efficient_Multi-View_Stereo_CVPR_2022_paper.pdf">
-                <papertitle>IterMVS: Iterative Probability Estimation for Efficient Multi-View Stereo</papertitle>
+              <a href="https://arxiv.org/abs/2303.10585">
+                <papertitle>Label Name is Mantra: Unifying Point Cloud Segmentation across Heterogeneous Datasets</papertitle>
               </a>
               <br>
-              <strong>Fangjinhua Wang</strong>,
-              Silvano Galliani, 
-              Christoph Vogel, 
-              Marc Pollefeys
+              <strong>Yixun Liang*</strong>,
+              Hao He*,
+              Shi-shi Xiao,
+              Hao Lu,
+              Ying-Cong Chen
+              (* denotes equal contribution)
               <br>
-              <em>CVPR</em>, 2022
+              <em>Arxiv</em>, 2023
               <br>
-              <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_IterMVS_Iterative_Probability_Estimation_for_Efficient_Multi-View_Stereo_CVPR_2022_paper.pdf">Paper</a> /
-              <a href="https://github.com/FangjinhuaWang/IterMVS">Code</a>
+              <a href="https://arxiv.org/abs/2303.10585">Paper</a> /
+              <a href="https://github.com/YixunLiang/MantraNet">Code</a>
               <p></p>
             </td>
           </tr>		
           
 
-          <tr onmouseout="patchmatchnet_stop()" onmouseover="patchmatchnet_start()">
+          <tr onmouseout="pmac_stop()" onmouseover="pmac_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='patchmatchnet_image'>
-                  <img src='images/patchmatchnet_after.jpg' width="160"></div>
-                <img src='images/patchmatchnet_before.jpg' width="160">
+                <div class="two" id='pmac_image'>
+                  <img src='images/pmacnet_after.png' width="160"></div>
+                <img src='images/pmacnet_before.png' width="160">
               </div>
               <script type="text/javascript">
-                function patchmatchnet_start() {
-                  document.getElementById('patchmatchnet_image').style.opacity = "1";
+                function pmac_start() {
+                  document.getElementById('pmac_image').style.opacity = "1";
                 }
 
-                function patchmatchnet_stop() {
-                  document.getElementById('patchmatchnet_image').style.opacity = "0";
+                function pmac_stop() {
+                  document.getElementById('pmac_image').style.opacity = "0";
                 }
-                patchmatchnet_stop()
+                pmac_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_PatchmatchNet_Learned_Multi-View_Patchmatch_Stereo_CVPR_2021_paper.pdf">
-                <papertitle>PatchmatchNet: Learned Multi-View Patchmatch Stereo</papertitle>
+              <a href="https://ieeexplore.ieee.org/document/9764690/">
+                <papertitle>PMACNet: Parallel Multiscale Attention Constraint Network for Pan-Sharpening</papertitle>
               </a>
               <br>
-              <strong>Fangjinhua Wang</strong>,
-              Silvano Galliani, 
-              Christoph Vogel, 
-              Pablo Speciale, 
-              Marc Pollefeys
+              <strong>Yixun Liang</strong>,
+              Ping Zhang, 
+              Tingqi Wang, 
+              Yang Mei, 
               <br>
-              <em>CVPR</em>, 2021 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+              <em>IEEE IEEE Geoscience and Remote Sensing Letters</em>, 2022
               <br>
-              <a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_PatchmatchNet_Learned_Multi-View_Patchmatch_Stereo_CVPR_2021_paper.pdf">Paper</a> /
-              <a href="https://github.com/FangjinhuaWang/PatchmatchNet">Code</a>
-              <p></p>
-            </td>
-          </tr>   
-
-
-          <tr onmouseout="multisensorwearable_stop()" onmouseover="multisensorwearable_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='multisensorwearable_image'>
-                  <img src='images/multisensorwearable_after.jpg' width="160"></div>
-                <img src='images/multisensorwearable_before.jpg' width="160">
-              </div>
-              <script type="text/javascript">
-                function multisensorwearable_start() {
-                  document.getElementById('multisensorwearable_image').style.opacity = "1";
-                }
-
-                function multisensorwearable_stop() {
-                  document.getElementById('multisensorwearable_image').style.opacity = "0";
-                }
-                multisensorwearable_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://ieeexplore.ieee.org/abstract/document/9628050/">
-                <papertitle>Self-Calibrated Multi-Sensor Wearable for Hand Tracking and Modeling</papertitle>
-              </a>
-              <br>
-              Nikhil Bharadwaj Gosala*,
-              <strong>Fangjinhua Wang*</strong>,
-              Zhaopeng Cui, 
-              Hanxue Liang, 
-              Oliver Glauser, 
-              Shihao Wu, 
-              Olga Sorkine-Hornung
-              (* denotes equal contribution)
-              <br>
-              <em>IEEE Transactions on Visualization and Computer Graphics</em>, 2021
+              <a href="https://ieeexplore.ieee.org/document/9764690/">Paper</a> /
+              <a href="https://github.com/YixunLiang/PMACNet">Code</a>
               <p></p>
             </td>
           </tr>   
@@ -204,7 +163,7 @@
         </tbody></table>
 
 				
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+        <!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>
             <td>
               <heading>Work experience</heading>
@@ -221,9 +180,9 @@
             </td>
           </tr>
           
-        </tbody></table>
+        </tbody></table> -->
 
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+        <!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>
             <td>
               <heading>Academic service</heading>
@@ -240,7 +199,7 @@
             </td>
           </tr>
           
-        </tbody></table>
+        </tbody></table> -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
             <td style="padding:0px">
