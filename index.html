@@ -47,8 +47,54 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-				
-		      <tr onmouseout="retr_stop()" onmouseover="retr_start()">
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Publications</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+                  <tr onmouseout="LD_stop()" onmouseover="LD_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='LD_image'>
+                  <img src='images/LucidDreamer_after.gif' width="160"></div>
+                <img src='images/LucidDreamer_after.gif' width="160">
+              </div>
+              <script type="text/javascript">
+                function cp_start() {
+                  document.getElementById('LD_image').style.opacity = "1";
+                }
+
+                function cp_stop() {
+                  document.getElementById('LD_image').style.opacity = "0";
+                }
+                cp_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2311.11284">
+                <papertitle>LucidDreamer: Towards High-Fidelity Text-to-3D Generation
+                  via Interval Score Matching</papertitle>
+              </a>
+              <br>
+              <strong>Yixun Liang*</strong>,
+              Xin Yang*,
+              Jiantao Lin,
+              Haodong Li,
+              Xiaogang Xu,
+              Ying-Cong Chen
+              <!-- (* denotes equal contribution)-->
+              <br>
+              <em>Arxiv</em>, 2023
+              <br>
+              <a href="https://arxiv.org/abs/2311.11284">Paper</a> /
+              <a href="https://github.com/EnVision-Research/LucidDreamer">Project Page(comming)</a> /
+              <a href="https://github.com/EnVision-Research/LucidDreamer">Code(comming)</a>
+              <p></p>
+            </td>
+          </tr>
+            <tr onmouseout="retr_stop()" onmouseover="retr_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='retr_image'>
