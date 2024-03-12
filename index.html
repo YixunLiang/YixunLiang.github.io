@@ -45,7 +45,7 @@
               </p>
             </td>
           </tr>
-        </tbody></table>
+      </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
@@ -54,7 +54,7 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-                  <tr onmouseout="LD_stop()" onmouseover="LD_start()">
+            <tr onmouseout="LD_stop()" onmouseover="LD_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='LD_image'>
@@ -78,8 +78,8 @@
                   via Interval Score Matching</papertitle>
               </a>
               <br>
-              <strong>Yixun Liang*</strong>,
-              Xin Yang*,
+              <strong>Yixun Liang</strong>,
+              Xin Yang,
               Jiantao Lin,
               Haodong Li,
               Xiaogang Xu,
@@ -95,7 +95,8 @@
               <p></p>
             </td>
           </tr>
-            <tr onmouseout="retr_stop()" onmouseover="retr_start()">
+
+          <tr onmouseout="retr_stop()" onmouseover="retr_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='retr_image'>
@@ -118,8 +119,8 @@
                 <papertitle>ReTR: Modeling Rendering via Transformer for Generalizable Neural Surface Reconstruction</papertitle>
               </a>
               <br>
-              <strong>Yixun Liang*</strong>,
-              Hao He*,
+              <strong>Yixun Liang</strong>,
+              Hao He,
               Ying-Cong Chen
               <!-- (* denotes equal contribution) -->
               <br>
@@ -131,6 +132,48 @@
               <p></p>
             </td>
           </tr>
+
+          <tr onmouseout="XG_stop()" onmouseover="XG_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='XG_image'>
+                  <img src='images/XG_before.png' width="160"></div>
+                <img src='images/XG_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function cp_start() {
+                  document.getElementById('XG_image').style.opacity = "1";
+                }
+
+                function cp_stop() {
+                  document.getElementById('XG_image').style.opacity = "0";
+                }
+                cp_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2403.04116">
+                <papertitle>Radiative Gaussian Splatting for Efficient X-ray Novel View Synthesis</papertitle>
+              </a>
+              <br>
+              Yuanhao Cai,
+              <strong>Yixun Liang</strong>,
+              jiahao Wang,
+              Angtian Wang,
+              Yulun Zhang,
+              Xiaokang Yang,
+              Zongwei Zhou,
+              Alan Yuille
+              <!-- (* denotes equal contribution)-->
+              <br>
+              <em>Arixv</em>, 2024
+              <br>
+              <a href="https://arxiv.org/abs/2403.04116">Paper</a> /
+              <a href="https://github.com/caiyuanhao1998/X-Gaussian">Code</a>
+              <p></p>
+            </td>
+          </tr>
+
 
           <tr onmouseout="cp_stop()" onmouseover="cp_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -155,8 +198,8 @@
                 <papertitle>CP-NeRF: Conditionally Parameterized Neural Radiance Fields for Cross-scene Novel View Synthesis</papertitle>
               </a>
               <br>
-              Hao He*,
-              <strong>Yixun Liang*</strong>,
+              Hao He,
+              <strong>Yixun Liang</strong>,
               Shi-shi Xiao,
               Jierun Chen,
               Ying-Cong Chen
@@ -195,8 +238,8 @@
                 <papertitle>Label Name is Mantra: Unifying Point Cloud Segmentation across Heterogeneous Datasets</papertitle>
               </a>
               <br>
-              <strong>Yixun Liang*</strong>,
-              Hao He*,
+              <strong>Yixun Liang</strong>,
+              Hao He,
               Shi-shi Xiao,
               Hao Lu,
               Ying-Cong Chen
