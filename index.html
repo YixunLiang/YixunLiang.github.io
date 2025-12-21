@@ -20,8 +20,7 @@
               <p style="text-align:center">
                 <name>Yixun Liang (梁逸勋)</name>
               </p>
-              <p>I am a second year M.Phil. student in Artificial Intelligence at <a href="https://hkust-gz.edu.cn/">HKUST(GZ)</a>, supervised by Prof. <a href="https://www.yingcong.me/">Ying-Cong Chen</a>, he is super nice!
-                Previously, I obtained a bachelor degree in Information Engneering at <a href="https://www.uestc.edu.cn/">UESTC</a> with Honor Research. I had an unforgettable research expriements with Prof.<a href="https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/11316?yxsh=05">Ping Zhang</a> in the area of Pan-Sharpening during my undergraduate years.
+              <p>I am a Ph.D student at <a href="https://hkust.edu.hk/">HKUST</a> starting in Jan 2025, supervised by Prof. <a href="https://pingtan.people.ust.hk/index.html">Ping TAN</a>. Previously, I obtained my M.phil degree in Artificial Intelligence at <a href="https://hkust-gz.edu.cn/">HKUST(GZ)</a>, supervised by Prof. <a href="https://www.yingcong.me/">Ying-Cong CHEN</a>, and Bachelor degree in Information Engneering at <a href="https://www.uestc.edu.cn/">UESTC</a> with Honor Research, cooperate with Prof.<a href="https://yjsjy.uestc.edu.cn/gmis/jcsjgl/dsfc/dsgrjj/11316?yxsh=05">Ping Zhang</a>.
               </p>
               <p>
                 I am a member of <a target=_blank href="https://anysyn3d.github.io/">AnySyn3D</a>, a non-profit research interest group comprising individuals with a strong interest in exploring research problems and cutting-edge technologies in 3D AIGC. If you are interested in discussing with me, feel free to drop me an email.
@@ -39,41 +38,75 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research</heading>
+            <td style="padding:10px;width:100%;vertical-align:middle">
+              <heading>Research Interest</heading>
               <p>
-                My current research interests mainly focus on the field of 3D vision, 3D understanding, reconstruction and generation.
+                My current research interests mainly focus on the field of 3D understanding, reconstruction and generation. 
               </p>
             </td>
           </tr>
       </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Publications</heading>
+            <td style="padding:10px;width:100%;vertical-align:middle">
+              <heading>Selected Publications</heading>
+              <p>
+                Full Publications can be found in <a href="https://scholar.google.com/citations?user=rmX3lvEAAAAJ">Google Scholar</a>.
+              </p>
             </td>
-          </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr onmouseout="LD_stop()" onmouseover="LD_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='LD_image'>
-                  <img src='images/LucidDreamer_after.gif' width="160"></div>
-                <img src='images/LucidDreamer_after.gif' width="160">
-              </div>
-              <script type="text/javascript">
-                function cp_start() {
-                  document.getElementById('LD_image').style.opacity = "1";
-                }
-
-                function cp_stop() {
-                  document.getElementById('LD_image').style.opacity = "0";
-                }
-                cp_stop()
-              </script>
+          <tr onmouseout="ld_stop()" onmouseover="ld_start()"></tr>
+            <td style="padding:10px;width:100%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2505.23253">
+                <papertitle>UniTEX: Universal High Fidelity Generative Texturing for 3D Shapes</papertitle>
+              </a>
+              <br>
+              <strong>Yixun Liang*,</strong>
+              Kunming Luo*,
+              Xiao Chen*,
+              Rui Chen,
+              Hongyu Yan,
+              Weiyu Li,
+              Jiarui Liu,
+              Ping Tan
+              <br>
+              <em>Arixv</em>, 2025
+              <br>
+              <a href="https://arxiv.org/abs/2505.23253">Paper</a> /
+              <a href="https://github.com/lightillusions/UniTEX">Code</a> /
+              <a href="https://www.youtube.com/watch?v=O8G1XqfIxck&feature=youtu.be">Video</a>
+              <br>
+              <em>TL;DR: A 3D texture system that combined fine-tuned large-scale Diffusion Transformers (DiT) with an advanced LoRA-based training strategy and native 3D texturing pipeline (Large Texturing Model, LTM), bypassing UV mapping limitations to deliver high-fidelity, consistent textures for 3D shapes. </em>
+              <p></p>
             </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
+          </tr>
+
+          <tr onmouseout="ld_stop()" onmouseover="ld_start()"></tr>
+            <td style="padding:10px;width:100%;vertical-align:middle">
+              <a href="https://dl.acm.org/doi/10.1145/3759249">
+                <papertitle>Iris3D: 3D Generation via Synchronized Diffusion Distillation</papertitle>
+              </a>
+              <br>
+              <strong>Yixun Liang</strong>,
+              Weiyu Li,
+              Rui Chen,
+              Fei-Peng Tian,
+              Jiarui Liu,
+              Ying-Cong Chen,
+              Ping Tan,
+              Xiao-Xiao Long,
+              <br>
+              <em>ACM Transactions on Graphics</em>, 2025 &nbsp <font color="red"><strong>(Present at SIGGRAPH 2026)</strong></font>
+              <br>
+              <a href="https://dl.acm.org/doi/10.1145/3759249">Paper</a>
+              <br>
+              <em>TL;DR: Building upon LucidDreamer, we address the multi-view inconsistency under the distillation paradigm, achieve training-free multi-view consistent SDS, and integrate it with state-of-the-art feed-forward models to form a brand-new 3D generation system.</em>
+              <p></p>            
+            </td>
+          </tr>
+          <tr onmouseout="ld_stop()" onmouseover="ld_start()"></tr>
+            <td style="padding:10px;width:100%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2311.11284">
                 <papertitle>LucidDreamer: Towards High-Fidelity Text-to-3D Generation
                   via Interval Score Matching</papertitle>
@@ -89,32 +122,15 @@
               <em>CVPR</em>, 2024 &nbsp <font color="red"><strong>(Highlight)</strong></font>
               <br>
               <a href="https://arxiv.org/abs/2311.11284">Paper</a> /
-              <a href="https://github.com/EnVision-Research/LucidDreamer">Project Page(comming)</a> /
               <a href="https://github.com/EnVision-Research/LucidDreamer">Code</a>
-               <iframe src="https://ghbtns.com/github-btn.html?user=EnVision-Research&repo=LucidDreamer&type=star&count=true&size=small" frameborder="0" scrolling="0" width="100" height="20" title="GitHub"></iframe>
+              <br>
+              <em>TL;DR: Discovering that the intrinsic mechanism of Score Distillation Sampling (SDS) involves predicting pseudo targets based on conditions, then introduce DDIM inversion to reduce the averaging effect, alongside proposing Interval Score Matching (ISM) and integrating 3D Gaussian Splatting for high-fidelity text-to-3D generation.</em>
               <p></p>
             </td>
           </tr>
 
           <tr onmouseout="retr_stop()" onmouseover="retr_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='retr_image'>
-                  <img src='images/retr_after.png' width="160"></div>
-                <img src='images/retr_before.jpg' width="160">
-              </div>
-              <script type="text/javascript">
-                function retr_start() {
-                  document.getElementById('retr_image').style.opacity = "1";
-                }
-
-                function retr_stop() {
-                  document.getElementById('retr_image').style.opacity = "0";
-                }
-                retr_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
+            <td style="padding:10px;width:100%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2305.18832">
                 <papertitle>ReTR: Modeling Rendering via Transformer for Generalizable Neural Surface Reconstruction</papertitle>
               </a>
@@ -128,155 +144,15 @@
               <a href="https://arxiv.org/abs/2305.18832">Paper</a> /
               <a href="https://YixunLiang.github.io/ReTR/">Project Page</a> /
               <a href="https://github.com/YixunLiang/ReTR">Code</a>
-              <p></p>
-            </td>
-          </tr>
-
-          <tr onmouseout="MI_stop()" onmouseover="MI_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='MI_image'>
-                  <img src='images/mi_after.gif' width="160"></div>
-                <img src='images/mi_before.gif' width="160">
-              </div>
-              <script type="text/javascript">
-                function MI_start() {
-                  document.getElementById('MI_image').style.opacity = "1";
-                }
-
-                function MI_stop() {
-                  document.getElementById('MI_image').style.opacity = "0";
-                }
-                MI_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2403.20193">
-                <papertitle>Motion Inversion for Video Customization</papertitle>
-              </a>
               <br>
-              Luozhou Wang,
-              Guibao Shen,
-              <strong>Yixun Liang</strong>,
-              Xin Tao,
-              Pengfei Wan,
-              Di Zhang,
-              Yijun Li,
-              Yingcong Chen
-              <!-- (* denotes equal contribution)-->
-              <br>
-              <em>Arxiv</em>, 2024
-              <br>
-              <a href="https://arxiv.org/abs/2403.20193">Paper</a> /
-              <a href="https://wileewang.github.io/MotionInversion/">Project Page</a> /
-              <a href="https://github.com/EnVision-Research/MotionInversion">Code</a>
-               <iframe src="https://ghbtns.com/github-btn.html?user=EnVision-Research&repo=MotionInversion&type=star&count=true&size=small" frameborder="0" scrolling="0" width="100" height="20" title="GitHub"></iframe>
-              <p></p>
-            </td>
-          </tr>
-
-
-          <tr onmouseout="XG_stop()" onmouseover="XG_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='XG_image'>
-                  <img src='images/XG_before.png' width="160"></div>
-                <img src='images/XG_before.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function cp_start() {
-                  document.getElementById('XG_image').style.opacity = "1";
-                }
-
-                function cp_stop() {
-                  document.getElementById('XG_image').style.opacity = "0";
-                }
-                cp_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2403.04116">
-                <papertitle>Radiative Gaussian Splatting for Efficient X-ray Novel View Synthesis</papertitle>
-              </a>
-              <br>
-              Yuanhao Cai,
-              <strong>Yixun Liang</strong>,
-              jiahao Wang,
-              Angtian Wang,
-              Yulun Zhang,
-              Xiaokang Yang,
-              Zongwei Zhou,
-              Alan Yuille
-              <!-- (* denotes equal contribution)-->
-              <br>
-              <em>Arxiv</em>, 2024
-              <br>
-              <a href="https://arxiv.org/abs/2403.04116">Paper</a> /
-              <a href="https://github.com/caiyuanhao1998/X-Gaussian">Code</a>
-              <p></p>
-            </td>
-          </tr>
-
-
-          <tr onmouseout="cp_stop()" onmouseover="cp_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='cp_image'>
-                  <img src='images/cp_after.jpg' width="160"></div>
-                <img src='images/cp_before.jpg' width="160">
-              </div>
-              <script type="text/javascript">
-                function cp_start() {
-                  document.getElementById('mantra_image').style.opacity = "1";
-                }
-
-                function cp_stop() {
-                  document.getElementById('mantra_image').style.opacity = "0";
-                }
-                cp_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2303.10585">
-                <papertitle>CP-NeRF: Conditionally Parameterized Neural Radiance Fields for Cross-scene Novel View Synthesis</papertitle>
-              </a>
-              <br>
-              Hao He*,
-              <strong>Yixun Liang*</strong>,
-              Shi-shi Xiao,
-              Jierun Chen,
-              Ying-Cong Chen
-              <!-- (* denotes equal contribution)-->
-              <br>
-              <em>Pacific Graphics</em>, 2023
-              <br>
-              <a href="https://heye0507.github.io/CPNeRF/">Paper</a> /
-              <a href="https://heye0507.github.io/CPNeRF/">Project Page</a> /
-              <a href="">Code(comming)</a>
+              <em>TL;DR: Discover that attention mechanisms tend to form a unimodal property of attention scores during training, and apply this feature to rendering to improve the accuracy of depth estimation.</em>
               <p></p>
             </td>
           </tr>
 
 
           <tr onmouseout="mantra_stop()" onmouseover="mantra_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='mantra_image'>
-                  <img src='images/mantranet_after.png' width="160"></div>
-                <img src='images/mantranet_before.jpg' width="160">
-              </div>
-              <script type="text/javascript">
-                function mantra_start() {
-                  document.getElementById('mantra_image').style.opacity = "1";
-                }
-
-                function mantra_stop() {
-                  document.getElementById('mantra_image').style.opacity = "0";
-                }
-                mantra_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
+            <td style="padding:10px;width:100%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2303.10585">
                 <papertitle>Label Name is Mantra: Unifying Point Cloud Segmentation across Heterogeneous Datasets</papertitle>
               </a>
@@ -288,92 +164,77 @@
               Ying-Cong Chen
               <!-- (* denotes equal contribution)-->
               <br>
-              <em>Arxiv</em>, 2023
+              <em>Pacific Graphics</em>, 2025
               <br>
               <a href="https://arxiv.org/abs/2303.10585">Paper</a> /
-              <a href="https://github.com/YixunLiang/MantraNet">Code</a>
+              <br>
+              <em>TL;DR: Utilizing a pre-trained language model to embed point cloud segmentation labels into a unified continuous latent space, our approach enables the joint training of heterogeneous datasets with label mismatches..</em>
               <p></p>
             </td>
           </tr>		
-          
-
-          <tr onmouseout="pmac_stop()" onmouseover="pmac_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='pmac_image'>
-                  <img src='images/pmacnet_after.png' width="160"></div>
-                <img src='images/pmacnet_before.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function pmac_start() {
-                  document.getElementById('pmac_image').style.opacity = "1";
-                }
-
-                function pmac_stop() {
-                  document.getElementById('pmac_image').style.opacity = "0";
-                }
-                pmac_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://ieeexplore.ieee.org/document/9764690/">
-                <papertitle>PMACNet: Parallel Multiscale Attention Constraint Network for Pan-Sharpening</papertitle>
+         
+          <tr onmouseout="mantra_stop()" onmouseover="mantra_start()">
+            <td style="padding:10px;width:100%;vertical-align:middle">
+              <a href="https://arxiv.org/pdf/2405.14979">
+                <papertitle>CraftsMan3D: High-fidelity Mesh Generation with 3D Native Generation and Interactive Geometry Refiner</papertitle>
               </a>
               <br>
-              <strong>Yixun Liang</strong>,
-              Ping Zhang, 
-              Tingqi Wang, 
-              Yang Mei, 
+              Weiyu Li*, Jiarui Liu*, Hongyu Yan*, Rui Chen, <strong>Yixun Liang</strong>, Xuelin Chen, Ping Tan, Xiaoxiao Long
+              <!-- (* denotes equal contribution)-->
               <br>
-              <em>IEEE IEEE Geoscience and Remote Sensing Letters</em>, 2022
+              <em>CVPR</em>, 2025
               <br>
-              <a href="https://ieeexplore.ieee.org/document/9764690/">Paper</a> /
-              <a href="https://github.com/YixunLiang/PMACNet">Code</a>
+              <a href="https://arxiv.org/pdf/2405.14979">Paper</a> /
+              <a href="https://craftsman3d.github.io/">Project Page</a> /
+              <a href="https://github.com/HKUST-SAIL/CraftsMan3D">Code</a>
+              <br>
+              <em>TL;DR: A novel 2-stage native 3D diffusion for 3D object generation.</em>
               <p></p>
             </td>
-          </tr>   
-         
+          </tr>
 
+          <tr onmouseout="mantra_stop()" onmouseover="mantra_start()">
+            <td style="padding:10px;width:100%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2409.18124">
+                <papertitle>Lotus: Diffusion-based Visual Foundation Model for High-quality Dense Prediction</papertitle>
+              </a>
+              <br>
+              Jing He* , Haodong Li* , Wei Yin, <strong>Yixun Liang</strong>, Leheng Li, Kaiqiang Zhou, Hongbo Zhang, Bingbing Liu, Ying-Cong Chen
+              <!-- (* denotes equal contribution)-->
+              <br>
+              <em>ICLR</em>, 2025
+              <br>
+              <a href="https://arxiv.org/abs/2409.18124">Paper</a> /
+              <a href="https://arxiv.org/abs/2409.18124">Project Page</a> /
+              <a href="https://github.com/EnVision-Research/Lotus">Code</a>
+              <br>
+              <em>TL;DR: A diffusion based depth prediction system.</em>
+              <p></p>
+            </td>
+          </tr>
+          
+          <tr onmouseout="mantra_stop()" onmouseover="mantra_start()">
+            <td style="padding:10px;width:100%;vertical-align:middle">
+              <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Cai_Baking_Gaussian_Splatting_into_Diffusion_Denoiser_for_Fast_and_Scalable_ICCV_2025_paper.pdf">
+                <papertitle>Baking Gaussian Splatting into Diffusion Denoiser for Fast and Scalable Single-stage Image-to-3D Generation and Reconstruction</papertitle>
+              </a>
+              <br>
+              Yuanhao Cai, He Zhang, Kai Zhang, <strong>Yixun Liang†</strong>, Mengwei Ren, Fujun Luan, Qing Liu, Soo Ye Kim, Jianming Zhang, Zhifei Zhang, Yuqian Zhou, Yulun Zhang†, Xiaokang Yang, Zhe Lin, Alan Yuille
+              <!-- (* denotes equal contribution)-->
+              <br>
+              <em>ICCV</em>, 2025
+              <br>
+              <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Cai_Baking_Gaussian_Splatting_into_Diffusion_Denoiser_for_Fast_and_Scalable_ICCV_2025_paper.pdf">Paper</a> /
+              <a href="https://caiyuanhao1998.github.io/project/DiffusionGS/">Project Page</a> /
+              <a href="https://github.com/caiyuanhao1998/Open-DiffusionGS">Code</a>
+              <br>
+              <em>TL;DR: A novel one-stage 3DGS-based diffusion for 3D object generation and scene reconstruction from a single view in ~6 seconds.</em>
+              <p></p>
+            </td>
+          </tr>	
         </tbody></table>
 
 				
-        <!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-          <tr>
-            <td>
-              <heading>Work experience</heading>
-            </td>
-          </tr>
-        </tbody></table>
-        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-					
-          <tr>
-            <td width="75%" valign="center">
-              Meta Reality Labs (Redmond, US), 2022
-              <br>
-              Microsoft Mixed Reality & AI Zurich Lab (Zurich, Switzerland), 2020
-            </td>
-          </tr>
-          
-        </tbody></table> -->
-
-        <!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-          <tr>
-            <td>
-              <heading>Academic service</heading>
-            </td>
-          </tr>
-        </tbody></table>
-        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-          
-          <tr>
-            <td width="75%" valign="center">
-              <strong>Journal reviewer</strong>: TVCG, CAG, Neural Computing, TCSVT, TIP
-              <br>
-              <strong>Conference reviewer</strong>: ECCV2022, ICRA2023, CVPR2023
-            </td>
-          </tr>
-          
-        </tbody></table> -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
             <td style="padding:0px">
